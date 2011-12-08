@@ -3,10 +3,15 @@ package Connection;
 import java.io.*;
 import java.net.*;
 
+
+/**
+ * Starts a server listening on port 4224.
+ * 
+ * @author Nicolai
+ *
+ */
 public class MTServer {
 
-	// Nicolai
-	
 	private static ServerSocket serverSocket;
 	private static final int port = 4224;
 	

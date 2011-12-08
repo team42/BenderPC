@@ -6,6 +6,12 @@ import java.util.*;
 
 import main.MapInfo;
 
+/**
+ * This class handles the clients that receives maze data from the server.
+ * 
+ * @author Nicolai
+ *
+ */
 public class ClientHandler extends Thread {
 
 	private Socket client;
@@ -14,6 +20,11 @@ public class ClientHandler extends Thread {
 	MapInfo mapInfo = MapInfo.getMapInfo();
 	byte maze[][] = new byte[13][13];
 	
+	/**
+	 * Start receiving data.
+	 * 
+	 * @param socket
+	 */
 	public ClientHandler(Socket socket) {
 		client = socket;
 		
@@ -25,6 +36,9 @@ public class ClientHandler extends Thread {
 		}
 	}
 	
+	/**
+	 * Read input into byte array.
+	 */
 	public void run() {
 		byte received[] = new byte[200];
 		

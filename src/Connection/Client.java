@@ -4,13 +4,22 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
+/**
+ * Set up a new connection to host on port and send message (data).
+ * 
+ * @author Nicolai
+ *
+ */
 public class Client {
-
-	// Nicolai
 
 	private static String host = "192.168.1.73";
 	private static final int port = 4242;
 	
+	/**
+	 * Set up a new connection to host on port and send message (data).
+	 * 
+	 * @param message
+	 */
 	public void send(char[] message) {
 		Socket socket = null;
 		
