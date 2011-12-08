@@ -15,6 +15,10 @@ public class MTServer {
 	private static ServerSocket serverSocket;
 	private static final int port = 4224;
 	
+	/**
+	 * Starts a server listening on port 4224.
+	 * @throws IOException
+	 */
 	public void Server() throws IOException {
 		
 		try{

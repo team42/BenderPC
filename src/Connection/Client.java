@@ -18,7 +18,7 @@ public class Client {
 	/**
 	 * Set up a new connection to host on port and send message (data).
 	 * 
-	 * @param message
+	 * @param message to be sent to host
 	 */
 	public void send(char[] message) {
 		Socket socket = null;

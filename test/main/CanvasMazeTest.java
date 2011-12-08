@@ -8,6 +8,10 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 /**
+ * <code>CanvasMazeTest</code> will test the <code>CanvasMaze</code> class
+ *
+ * @see CanvasMaze
+ * 
  * @author lasse
  *
  */

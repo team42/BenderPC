@@ -9,6 +9,12 @@ import Connection.Client;
 import com.jgoodies.forms.factories.DefaultComponentFactory;
 import javax.swing.border.EtchedBorder;
 
+/**
+ * <code>CanvasMenu</code> sets up the canvas with buttons and their actions.
+ *
+ *
+ * @author Nicolai
+ */
 @SuppressWarnings("serial")
 public class CanvasMenu extends JPanel {
 
